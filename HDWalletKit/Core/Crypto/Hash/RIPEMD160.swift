@@ -7,7 +7,7 @@
 //
 import Foundation
 
-struct RIPEMD160 {
+public struct RIPEMD160 {
     
     private var MDbuf: (UInt32, UInt32, UInt32, UInt32, UInt32)
     private var buffer: Data
@@ -369,11 +369,10 @@ struct RIPEMD160 {
     }
 }
 
-extension RIPEMD160 {
+public extension RIPEMD160 {
     static func hash(_ message: Data) -> Data {
         var md = RIPEMD160()
         md.update(data: message)
         return md.finalize()
     }
 }
-
