@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CryptoSwift
+import PPCryptoSwift
 
 // MARK: Base56Encode
 

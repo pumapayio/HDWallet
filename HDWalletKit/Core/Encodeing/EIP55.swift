@@ -5,7 +5,7 @@
 //  Created by Pavlo Boiko on 28.06.18.
 //
 
-import CryptoSwift
+import PPCryptoSwift
 
 // NOTE: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md
 public struct EIP55 {

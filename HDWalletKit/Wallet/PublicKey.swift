@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CryptoSwift
+import PPCryptoSwift
 import secp256k1
 
 public struct PublicKey {

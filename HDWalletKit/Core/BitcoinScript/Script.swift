@@ -23,7 +23,7 @@
 //
 
 import Foundation
-import CryptoSwift
+import PPCryptoSwift
 
 public class Script {
     // An array of Data objects (pushing data) or UInt8 objects (containing opcodes)

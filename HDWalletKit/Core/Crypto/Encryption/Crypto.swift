@@ -6,7 +6,7 @@
 //  Copyright © 2018 yuzushioh. All rights reserved.
 //
 
-import CryptoSwift
+import PPCryptoSwift
 
 public final class Crypto {
    public static func HMACSHA512(key: Data, data: Data) -> Data {
@@ -40,7 +40,7 @@ public final class Crypto {
     }
     
     public static func hashSHA3_256(_ data: Data) -> Data {
-        return Data(CryptoSwift.SHA3(variant: .sha256).calculate(for: data.bytes))
+        return Data(PPCryptoSwift.SHA3(variant: .sha256).calculate(for: data.bytes))
     }
     
     public static func sign(_ hash: Data, privateKey: Data) throws -> Data {

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CryptoSwift
+import PPCryptoSwift
 
 public class KeystoreV3: KeystoreInterface {
     @available(*, deprecated)

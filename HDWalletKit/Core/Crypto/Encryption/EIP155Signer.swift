@@ -1,4 +1,4 @@
-import CryptoSwift
+import PPCryptoSwift
 
 public struct EIP155Signer {
     
